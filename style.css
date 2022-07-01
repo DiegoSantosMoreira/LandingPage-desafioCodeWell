@@ -7,12 +7,13 @@ body{
 }
 /* HEADER */
 .header{
-    margin: 25px 30px 92px 30px;
+    margin: 25px 5px 80px 5px;
     
 }
 .header .navbar{
     display: flex;
     justify-content: space-around;
+   
     
 }
 .header .navbar .nav-content{
@@ -20,10 +21,54 @@ body{
     display: flex;
     align-items: center;
     font-size: 18px;
+    gap: 25px;
 }
 .header .navbar .nav-content li{
     margin: 0 15px;
     color: #6C6C6C;
+}
+.header .navbar .nav-content #products{
+    padding: 10px;
+    top: 140px;
+    left: 300px;
+}
+.header .navbar .nav-content #menu-products{
+    list-style: none;
+    width: 500px;
+    height: 250px;
+    background: #ffffff;
+    border-radius: 10px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    top: 100px;
+    left: 600px;
+    /* display: none; */
+    
+}
+
+.header .navbar .nav-content #menu-products::before{
+    content: "";
+    width: 0;
+    height: 0;
+    top: -1.3rem;
+    left: 2.5rem;
+    border-left: 17px solid transparent;
+    border-right: 17px solid transparent;
+    border-bottom: 17px solid #ffffff;
+    position: relative;
+}
+
+.header .navbar .nav-content .menu-item td{
+   font-size: 14px;
+   margin: 0 10px;
+   color: #7E8E9A;
+}
+.header .navbar .nav-content .menu-item h6{
+    color: #0A263F;
+    font-size: 16px;
+    margin: 0 2px;
 }
 .nav-button{
     width: 150px;
@@ -42,10 +87,11 @@ body{
 
 .main{
     display: flex;
+   
 }
 .main .title{
     font-size: 5rem;
-    margin: 35px 0 0 200px;
+    margin: 35px 0 0 170px;
 }
 .main .title .text-yellow{
     color: #F7B301;
@@ -73,7 +119,7 @@ body{
     height: 25px;
 }
 .main .image-girl{
-    margin: 0 200px;
+    margin: 0 170px;
     width: 500px;
     height: 500px;
 }
@@ -99,3 +145,5 @@ body{
 .footer .nav-footer-content li{
     margin: 0 25px 25px;
 }
+
+/* RESPONSIVIDADE */
