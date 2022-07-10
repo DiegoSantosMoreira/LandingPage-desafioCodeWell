@@ -4,12 +4,16 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="/js/script.js" defer></script>
+        <script src="script.js" defer></script>
         <link rel="stylesheet" href="style.css">
         <title>Ondeck</title>
     </head>
     <body>
         <header class="header">
+            <div class="header-img-content">
+                <img src="./Assets/Logo.svg" alt="logo" class="image-content">
+                <img src="./Assets/Menu.svg" alt="menu" class="image-content" id="logo-menu">
+            </div>
             <nav class="navbar">
                 <img src="./Assets/Logo.svg" alt="logo" class="image-content">
                 <ul class="nav-content">
@@ -60,13 +64,60 @@
                     <li>Challenges</li>
                     <li>Resources</li>
                     <li>Other Links</li>
-                </ul>
-                <ul class="nav-content">
+                 </ul>
+                 <ul class="nav-content">
                     <li>Sign in</li>
                     <li> <input type="button" value="Try for free" class="nav-button"> </li>
                 </ul>
             </nav>
         </header>
+        <aside class="aside" id="aside">
+            <nav class="nav-aside-content">
+                <h6 class="title-aside-content">
+                    Products
+                </h6>
+                <ul id="menu-products">
+                    <li>
+                        <table class="menu-item">
+                            <tr>
+                                <th> <img src="./Assets/Spense_Icon.svg" alt=""></th>
+                                <th> <h6>Spence</h6></th>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Spense is a landing page for writers. Great for practicing absolute  positioning and flex layouts.</td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li>
+                        <table class="menu-item">
+                            <tr>
+                                <th> <img src="./Assets/Fiber_Icon.svg" alt=""></th>
+                                <th> <h6>Fiber Landing Page</h6></th>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>An online portifolio generator. Great to practice flex/grid layouts, and absolute positioning.</td>
+                            </tr>
+                        </table>
+                        
+                    </li>
+                    <li>
+                        <table class="menu-item">
+                            <tr>
+                                <th> <img src="./Assets/Gradie_Icon.svg" alt=""></th>
+                                <th> <h6>Gradie Sign Up Page</h6></th>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Gradie is a simple sign up page, great to practice centering layouts.</td>
+                            </tr>
+                        </table>
+                        
+                    </li>
+                </ul>
+            </nav>
+        </aside>
         <main class="main">
             <div class="main-content">
                 <h1 class="title">
