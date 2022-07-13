@@ -179,7 +179,7 @@ body{
     .menu-item td{
         height: 35px;
         color: #6C6C6C;
-        font-size: 14px;
+        font-size: 16px;
     }
     #menu-products{
         list-style: none;
@@ -189,12 +189,12 @@ body{
     /* ASIDE */
     .aside{
     width: 95%;
-    height: 450px;
+    height: 380px;
     background: #ffffff;
     border-radius: 10px;
     position: absolute;
     padding: 10px 0;
-    margin: 5px;
+    margin: 15px;
     z-index: 10;
     }
     .aside .nav-aside-content{
@@ -203,6 +203,7 @@ body{
     .aside .nav-aside-content .title-aside-content{
         margin: 10px;
         color: #6C6C6C;
+        font-size: 1rem;
     }
 
     /* MAIN */
@@ -244,7 +245,10 @@ body{
         height: 20px;
     }
     .main .image-girl{
-        display: none;
+        display: block;
+        width: 250px;
+        height: 300px;
+        margin: 15px;
     }
 
     /* FOOTER */
@@ -312,7 +316,7 @@ body{
     border-radius: 10px;
     position: absolute;
     padding: 10px 0;
-    margin: 5px;
+    margin: 15px;
     z-index: 10;
     }
     .aside .nav-aside-content{
@@ -436,7 +440,7 @@ body{
     border-radius: 10px;
     position: absolute;
     padding: 10px 0;
-    margin: 5px;
+    margin: 10px;
     z-index: 10;
     }
     .aside .nav-aside-content{
